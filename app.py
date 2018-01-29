@@ -87,7 +87,7 @@ def openPage(url):
 	print("\n")
 	print("+-----------------------------+")
 	print("\n")
-	print(color.green(soup.body.get_text()))
+	print(color.green(soup.body.get_text().replace("\n", "")))
 	print("\n")
 	print("+-----------------------------+")
 	print("\n")
@@ -95,7 +95,7 @@ def openPage(url):
 	print(color.red("B(返回搜索)，[ctrl]+[c] 退出"))
 	typee = input("：")
 
-	if typee == "B":
+	if typee == "B" or typee == "b":
 			runner()
 
 
@@ -116,7 +116,7 @@ def runner():
 	print(color.red("B(返回搜索)，数字(进入某条搜索结果)，[ctrl]+[c] 退出"))
 	typee = input("：")
 
-	if typee == "B":
+	if typee == "B" or typee == "b":
 		runner()
 	else:
 		if str(int(typee)) == typee:
