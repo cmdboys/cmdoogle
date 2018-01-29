@@ -4,10 +4,8 @@
 
 * 安装依赖
   ```cmd
-  python 3.X
-  
-  BeautifulSoup
-  colorama
+  // python 3.X
+  pip install
   ```
 * 运行
   ```cmd
