@@ -4,7 +4,7 @@
 
 * 安装依赖
   ```cmd
-  // python 3.X
+  python 3.X
   pip install
   ```
 * 运行
