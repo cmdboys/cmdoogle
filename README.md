@@ -3,13 +3,13 @@
 ## 如何开始
 
 * 安装依赖
-  ```cmd
-  //python 3.X
-  pip install
+  ```
+    //python 3.X
+    pip install
   ```
 * 运行
-  ```cmd
-  python app.py
+  ```
+    python app.py
   ```
    
 ## 效果
