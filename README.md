@@ -3,7 +3,7 @@
 ## 如何开始
 
 * 安装依赖
-```cmd
+  ```cmd
   //python 3.X
   pip install
   ```
